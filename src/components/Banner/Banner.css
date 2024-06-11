@@ -1,0 +1,86 @@
+.banner_wrapper {
+    text-align: center;
+    padding: 0;
+    background: url(https://images.pexels.com/photos/6140699/pexels-photo-6140699.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 10px;
+    height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    color: white !important;
+}
+
+.banner_wrapper:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background: #000;
+    z-index: 1; 
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .banner_wrapper {
+      height: 80vh; 
+  }
+}
+
+@media (max-width: 992px) {
+  .banner_wrapper {
+      height: 70vh; 
+  }
+}
+
+@media (max-width: 768px) {
+  .banner_wrapper {
+      height: 60vh; 
+  }
+}
+
+@media (max-width: 576px) {
+  .banner_wrapper {
+      height: 40vh; 
+  }
+}
+
+.content {
+    position: relative;
+    z-index: 2; 
+    color: white; 
+}
+
+
+
+
+
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  
+  /* Style for the icon wrapper */
+  .dropdown-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: bounce 1s infinite; 
+  }
+  
+  /* Style for the icon */
+  .dropdown-icon {
+    width: 50px;
+    color: white; 
+  }

@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "img": "https://i.ibb.co/Rpsp67D/black-person-1.jpg",
+        "about": "I am Ripon Chandra Dev Sharma. Best SEO & Social Media Marketing Specialist in Bangladesh",
+        "title": "CEO & Founder at Rank Agency - Bangladesh"
+      },
+    {
+        "id": "2",
+        "img": "https://i.ibb.co/hyL2QpD/github-profile.png",
+        "about": "I am Noornabi Islam. Expertise website developer and wordpress plugin developer",
+        "title": "Software Developer on bPlugins - Bangladesh"
+      },
+    {
+        "id": "3",
+        "img": "https://i.ibb.co/XLYf5kh/facebook-profile.jpg",
+        "about": "I am Sourov Sharma. Expert On Facebook Ads Specialist and Digital Marketing with 3 year's of Experience.",
+        "title": "Facebook Ads Specialist & Digital Marketer - Bangladesh"
+      },
+    {
+        "id": "4",
+        "img": "https://i.ibb.co/cCxs7C0/google-profile.jpg",
+        "about": "I am Disa Halder. Expert On Google Ads Specialist and Shopify Web Designer with 5 year's of Experience.",
+        "title": "Google Ads Specialist and Shopify Web Designer - Bangladesh"
+      },
+    {
+        "id": "5",
+        "img": "https://i.ibb.co/ctqHfTy/youtube-profile.jpg",
+        "about": "I am Joyee Roy. Expert On YouTube SEO Specialist and Digital Marketing with 4 year's of Experience.",
+        "title": "GYouTube SEO Experts - Bangladesh"
+      }
+]
