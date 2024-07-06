@@ -18,7 +18,7 @@ const FlipClock = ({ date }) => {
   const renderer = ({ days, hours, minutes, seconds }) => {
     return (
       <div className="bg-teal-700 py-5">
-        <h2 className="text-5xl font-serif text-white">Super Offer - Contact Now</h2>
+        <h2 className="text-5xl font-serif text-white  py-4">Super Offer - Contact Now</h2>
         <div className="flip-countdown">
           <FlipUnit value={days} unit="Days" />
           <FlipUnit value={hours} unit="Hours" />

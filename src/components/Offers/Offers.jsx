@@ -3,7 +3,7 @@ import Container from "../Shared/Container/Container";
 import { BsFillBarChartLineFill } from "react-icons/bs";
 import { FaComputer } from "react-icons/fa6";
 import { FaUsers } from "react-icons/fa6";
-import { FaFacebook } from "react-icons/fa";
+import { FaFacebook, FaDesktop } from "react-icons/fa";
 import { BsYoutube } from "react-icons/bs";
 import { MdMarkEmailRead } from "react-icons/md";
 import { IoMdAnalytics } from "react-icons/io";
@@ -12,8 +12,8 @@ import { CgWebsite } from "react-icons/cg";
 const Offers = () => {
   return (
     <Container>
-      <div id="services" className="mt-10 xl:mt-20">
-        <h2 className="font-serif text-4xl">What We Are offers</h2>
+      <div id="services" className="mt-5 xl:mt-20">
+        <h2 className="font-serif text-4xl pb-6">What We Are offers</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 mt-10">
           <div className="shadow-md shadow-gray-600 p-4 rounded-sm cursor-pointer hover:scale-110 hover:duration-500">
             <div className="flex items-center gap-4">
@@ -95,14 +95,13 @@ const Offers = () => {
           <div className="shadow-md shadow-gray-600 p-4 rounded-sm cursor-pointer hover:scale-110 hover:duration-500">
             <div className="flex items-center gap-4">
               <div className="text-3xl text-orange-500">
-                <MdMarkEmailRead />
+                <FaDesktop/>
               </div>
-              <h4 className="text-3xl font-serif">Email Marketing</h4>
+              <h4 className="text-3xl font-serif">Graphic Design</h4>
             </div>
             <p className="text-left text-pretty mt-4">
-              We create personalized email campaigns that resonate with your
-              audience, ensuring your message is delivered with precision and
-              impact.
+              Explore the boundless world of graphic design with our expertly
+              crafted services.
             </p>
           </div>
 
@@ -111,13 +110,12 @@ const Offers = () => {
               <div className="text-3xl text-orange-500">
                 <IoMdAnalytics />
               </div>
-              <h4 className="text-3xl font-serif">Website Analysis</h4>
+              <h4 className="text-3xl font-serif">Website Traffic</h4>
             </div>
             <p className="text-left text-pretty mt-4 text-gray-600 text-md">
-              Transform your online presence with our comprehensive website
-              analysis services. Our in-depth evaluation helps identify
-              strengths, weaknesses, and opportunities for growth, ensuring your
-              website performs at its best.
+              Explore the boundless world of website traffic with our expertly
+              crafted services. This can help you attract more views, and
+              engagement to your website.
             </p>
           </div>
 

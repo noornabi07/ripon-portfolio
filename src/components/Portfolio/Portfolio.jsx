@@ -5,7 +5,7 @@ import Tab from "./Tab";
 import PortfolioForm from "./PortfolioForm";
 
 const Portfolio = () => {
-  const [refetch, setRefetch] = useState(false);
+  // const [refetch, setRefetch] = useState(false);
   return (
     <Container>
       <div className="pt-20 pb-10">
@@ -32,14 +32,11 @@ const Portfolio = () => {
         </div>
 
         <dialog id="my_modal_6" className="modal modal-bottom sm:modal-middle">
-          <PortfolioForm
-            setRefetch={setRefetch}
-            refetch={refetch}
-          ></PortfolioForm>
+          <PortfolioForm></PortfolioForm>
         </dialog>
 
         <div>
-          <Tab refetch={refetch}></Tab>
+          <Tab></Tab>
         </div>
       </div>
     </Container>

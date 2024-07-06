@@ -19,12 +19,12 @@ const TimerSection = () => {
 
   return (
     <Container>
-      <div className="mt-10">
+      <div className="mt-14">
         <div className="flex justify-center items-center gap-3">
-          <h1 className="text-4xl font-serif mb-7">We Have Offer Now</h1>
+          <h1 className="text-4xl font-serif mb-12">We Have Offer Now</h1>
           <BiSolidOffer
             onClick={() => document.getElementById("my_modal_4").showModal()}
-            className="text-5xl text-orange-500 font-serif -mt-6"
+            className="text-5xl text-orange-500 font-serif -mt-12"
           ></BiSolidOffer>
         </div>
         <FlipClock date={futureDate}></FlipClock>

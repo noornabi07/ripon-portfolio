@@ -16,14 +16,17 @@ import Container from "../Shared/Container/Container";
 import ReviewsForm from "./ReviewsForm";
 
 const Reviews = () => {
-  const [reviews, setReviews] = useState([]);
-  const [refetch, setRefetch] = useState(false);
+  const [reviewsData, setReviewsData] = useState([]);
+
+  console.log(reviewsData);
 
   useEffect(() => {
-    fetch("https://ripon-sharma-server.vercel.app/review")
+    fetch(
+      "reviews.json"
+    )
       .then((res) => res.json())
-      .then((data) => setReviews(data));
-  }, [refetch]);
+      .then((data) => setReviewsData(data));
+  }, []);
 
   return (
     <Container>
@@ -50,7 +53,7 @@ const Reviews = () => {
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper"
       >
-        {reviews.map((review, index) => (
+        {reviewsData.map((review, index) => (
           <div key={index}>
             <SwiperSlide>
               <div className="card w-full mb-10 bg-slate-700 border-4 border-gray-600 text-white">
@@ -87,7 +90,7 @@ const Reviews = () => {
         </button>
       </div>
       <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
-        <ReviewsForm refetch={refetch} setRefetch={setRefetch}></ReviewsForm>
+        <ReviewsForm></ReviewsForm>
       </dialog>
     </Container>
   );

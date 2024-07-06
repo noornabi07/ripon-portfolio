@@ -12,25 +12,25 @@ const Skills = () => {
             <div>
               <Progress></Progress>
             </div>
-            <div className="text-left flex items-center mt-5">
-              <div className="text-md md:text-lg font-serif text-white">
+            <div className="text-left flex items-center mt-5 border-l-2">
+              <div className="text-md md:text-lg pl-8 text-white">
                 <h4>Full Name:</h4>
                 <h4 className="my-3">Passion:</h4>
                 <h4>Address:</h4>
-                <h4>Freelance:</h4>
+                <h4 className="mt-2">Freelance:</h4>
                 <h4 className="my-3">What's App:</h4>
                 <h4>Gmail:</h4>
                 <h4 className="text-md md:text-lg bg-orange-600 mt-2 md:px-2 rounded-lg">
                   Online Status
                 </h4>
               </div>
-              <div className="ml-10 xl:ml-20 text-md md:text-lg font-serif text-white">
+              <div className="ml-10 xl:ml-20 text-md md:text-lg  text-white">
                 <p>Ripon Chandra Dev Sharma</p>
                 <p className="my-3">Freelancer</p>
                 <p>Dinajpur - Bangladesh</p>
-                <p>Till July 17, 2020</p>
+                <p className="mt-2">Till July 17, 2020</p>
                 <p className="my-3">+8801734-992626</p>
-                <p>sharmaripon131@gmail.com</p>
+                <p>rankagency289@gmail.com</p>
                 <p className="mt-2 flex items-center gap-3">
                   {" "}
                   <FaCalendarAlt /> 24/7 Hours Online Support

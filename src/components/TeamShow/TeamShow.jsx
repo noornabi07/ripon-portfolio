@@ -19,9 +19,10 @@ import {
 
 const TeamShow = () => {
   const [teams, setTeams] = useState([]);
+  console.log(teams);
 
   useEffect(() => {
-    fetch("https://ripon-sharma-server.vercel.app/team")
+    fetch('team.json')
       .then((res) => res.json())
       .then((data) => setTeams(data));
   }, []);

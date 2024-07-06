@@ -1,7 +1,7 @@
 import React from "react";
 import Swal from "sweetalert2";
 
-const PortfolioForm = ({ setRefetch, refetch }) => {
+const PortfolioForm = () => {
   const handlePortfolioSubmit = async (event) => {
     event.preventDefault();
     const form = event.target;
@@ -14,10 +14,10 @@ const PortfolioForm = ({ setRefetch, refetch }) => {
     const formData = new FormData();
     formData.append("image", image);
     const url = `https://api.imgbb.com/1/upload?key=${
-      import.meta.env.VITE_IMGBB_KEY
+      import.meta.env.VITE_IMG_KEY
     }`;
 
-    try {
+    https: try {
       const imgRes = await fetch(url, {
         method: "POST",
         body: formData,
@@ -30,7 +30,7 @@ const PortfolioForm = ({ setRefetch, refetch }) => {
 
         // Send review data to the backend server
         const backendUrl =
-          "https://ripon-sharma-server.vercel.app/addportfolio"; // Replace with your backend URL
+          "https://ripon-server-18h0gcjap-noornabi07s-projects.vercel.app/addPortfolio";
         const reviewRes = await fetch(backendUrl, {
           method: "POST",
           headers: {
@@ -38,10 +38,6 @@ const PortfolioForm = ({ setRefetch, refetch }) => {
           },
           body: JSON.stringify(newPortfolio),
         });
-        const data = await reviewRes.json();
-        if (data.acknowledged) {
-          setRefetch(!refetch);
-        }
 
         if (reviewRes.ok) {
           Swal.fire({

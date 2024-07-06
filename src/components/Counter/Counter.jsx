@@ -7,7 +7,7 @@ import './Counter.css'
 
 const Counter = () => {
     return (
-        <div className='counter_wrapper mt-20 xl:mt-40'>
+        <div className='counter_wrapper mt-10 xl:mt-20'>
             <Container>
                 <div className='content grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 justify-center items-center'>
                     <div className='text-center'>

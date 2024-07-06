@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
-import logo from "../../../assets/file.png";
+// import logo from "../../../assets/3d_logo- Png";
+// import logo from '../../../../src/assets/3d_logo- Png'
+import logo from '../../../assets/file.png'
 
 import "./Navbar.css";
 

@@ -1,7 +1,7 @@
 import React from "react";
 import Swal from "sweetalert2";
 
-const ReviewsForm = ({ setRefetch, refetch }) => {
+const ReviewsForm = () => {
   const handleReviews = async (event) => {
     event.preventDefault();
     const form = event.target;
@@ -14,7 +14,7 @@ const ReviewsForm = ({ setRefetch, refetch }) => {
     const formData = new FormData();
     formData.append("image", image);
     const url = `https://api.imgbb.com/1/upload?key=${
-      import.meta.env.VITE_IMGBB_KEY
+      import.meta.env.VITE_IMG_KEY
     }`;
 
     try {
@@ -29,7 +29,8 @@ const ReviewsForm = ({ setRefetch, refetch }) => {
         const newReview = { name, email, details: review, rating, img: imgUrl };
 
         // Send review data to the backend server
-        const backendUrl = "https://ripon-sharma-server.vercel.app/addreview"; // Replace with your backend URL
+        const backendUrl =
+          "https://ripon-server-18h0gcjap-noornabi07s-projects.vercel.app/addReviews";
         const reviewRes = await fetch(backendUrl, {
           method: "POST",
           headers: {
@@ -37,11 +38,6 @@ const ReviewsForm = ({ setRefetch, refetch }) => {
           },
           body: JSON.stringify(newReview),
         });
-
-        const data = await reviewRes.json();
-        if (data.acknowledged) {
-          setRefetch(!refetch);
-        }
 
         if (reviewRes.ok) {
           Swal.fire({

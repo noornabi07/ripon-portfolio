@@ -10,20 +10,22 @@ const Tab = ({ refetch }) => {
   const [itemDetails, setItemDetails] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
 
+  console.log(portfolio);
+
   const handleTabClick = (tabName) => {
     setActiveTab(tabName);
   };
 
   useEffect(() => {
-    fetch("https://ripon-sharma-server.vercel.app/portfolio/")
+    fetch("portfolio.json")
       .then((res) => res.json())
       .then((data) => setPortfolio(data));
-  }, [refetch]);
+  }, []);
 
   const fetchDataById = async (id) => {
     try {
       const response = await fetch(
-        `https://ripon-sharma-server.vercel.app/port/${id}`
+        `https://ripon-server-18h0gcjap-noornabi07s-projects.vercel.app/port/${id}`
       );
       const data = await response.json();
       setItemDetails(data);

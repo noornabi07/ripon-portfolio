@@ -7,14 +7,11 @@ const Progress = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1, transition: { duration: 0.8 } }}
       >
-        {/* development skills */}
+        {/* SEO */}
         <div className="text-white px-4">
           <div className="w-full flex flex-col gap-4">
-            {/* html5 & css3 */}
             <div className="overflow-x-hidden">
-              <p className="text-sm uppercase font-medium text-left">
-                Website SEO
-              </p>
+              <p className="text-sm uppercase font-medium text-left">SEO</p>
               <span className="w-full h-2 bgOpacity inline-flex rounded-md mt-2">
                 <motion.span
                   initial={{ x: "-100%", opacity: 0 }}
@@ -27,10 +24,10 @@ const Progress = () => {
               </span>
             </div>
 
-            {/* react js */}
+            {/* Googles Ads */}
             <div className="overflow-x-hidden">
               <p className="text-sm uppercase font-medium text-left">
-                YouTube SEO & Promotion
+                Googles Ads
               </p>
               <span className="w-full h-2 bgOpacity inline-flex rounded-md mt-2">
                 <motion.span
@@ -44,24 +41,24 @@ const Progress = () => {
               </span>
             </div>
 
-            {/* node js */}
+            {/* Digital Marketing */}
             <div className="overflow-x-hidden">
               <p className="text-sm uppercase font-medium text-left">
-                Google Ads
+                Digital Marketing
               </p>
               <span className="w-full h-2 bgOpacity inline-flex rounded-md mt-2">
                 <motion.span
                   initial={{ x: "-100%", opacity: 0 }}
                   animate={{ x: 0, opacity: 1 }}
                   transition={{ duration: 0.5, delay: 0.3 }}
-                  className="w-[98%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                  className="w-[100%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
                 >
-                  <span className="absolute -top-7 right-0">98%</span>
+                  <span className="absolute -top-7 right-0">100%</span>
                 </motion.span>
               </span>
             </div>
 
-            {/* javaScript */}
+            {/* Facebook Ads */}
 
             <div className="overflow-x-hidden">
               <p className="text-sm uppercase font-medium text-left">
@@ -72,14 +69,48 @@ const Progress = () => {
                   initial={{ x: "-100%", opacity: 0 }}
                   animate={{ x: 0, opacity: 1 }}
                   transition={{ duration: 0.5, delay: 0.3 }}
-                  className="w-[96%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                  className="w-[100%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
                 >
-                  <span className="absolute -top-7 right-0">96%</span>
+                  <span className="absolute -top-7 right-0">100%</span>
                 </motion.span>
               </span>
             </div>
 
-            {/* mongodb */}
+            {/* YouTube SEO */}
+            <div className="overflow-x-hidden">
+              <p className="text-sm uppercase text-left font-medium">
+                YouTube SEO
+              </p>
+              <span className="w-full h-2 bgOpacity inline-flex rounded-md mt-2">
+                <motion.span
+                  initial={{ x: "-100%", opacity: 0 }}
+                  animate={{ x: 0, opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 0.3 }}
+                  className="w-[100%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                >
+                  <span className="absolute -top-7 right-0">100%</span>
+                </motion.span>
+              </span>
+            </div>
+
+            {/* Graphic Design */}
+            <div className="overflow-x-hidden">
+              <p className="text-sm uppercase text-left font-medium">
+                Graphic Design
+              </p>
+              <span className="w-full h-2 bgOpacity inline-flex rounded-md mt-2">
+                <motion.span
+                  initial={{ x: "-100%", opacity: 0 }}
+                  animate={{ x: 0, opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 0.3 }}
+                  className="w-[100%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                >
+                  <span className="absolute -top-7 right-0">100%</span>
+                </motion.span>
+              </span>
+            </div>
+
+            {/* Website Traffic */}
             <div className="overflow-x-hidden">
               <p className="text-sm uppercase text-left font-medium">
                 Website Traffic
@@ -89,9 +120,26 @@ const Progress = () => {
                   initial={{ x: "-100%", opacity: 0 }}
                   animate={{ x: 0, opacity: 1 }}
                   transition={{ duration: 0.5, delay: 0.3 }}
-                  className="w-[90%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                  className="w-[100%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
                 >
-                  <span className="absolute -top-7 right-0">90%</span>
+                  <span className="absolute -top-7 right-0">100%</span>
+                </motion.span>
+              </span>
+            </div>
+
+            {/* Website Design */}
+            <div className="overflow-x-hidden">
+              <p className="text-sm uppercase text-left font-medium">
+                Website Design
+              </p>
+              <span className="w-full h-2 bgOpacity inline-flex rounded-md mt-2">
+                <motion.span
+                  initial={{ x: "-100%", opacity: 0 }}
+                  animate={{ x: 0, opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 0.3 }}
+                  className="w-[100%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+                >
+                  <span className="absolute -top-7 right-0">100%</span>
                 </motion.span>
               </span>
             </div>

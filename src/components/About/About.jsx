@@ -17,20 +17,19 @@ const About = () => {
             alt="white-person"
           />
         </div>
-        <div data-aos="flip-right" className="text-left w-full xl:w-1/2">
-          <span className="hello-txt">Hello</span>
+        <div data-aos="flip-right" className="text-left w-full">
+          <span className="hello-txt text-lg">Hello</span>
           <div>
-            <h2 className="text-2xl md:text-4xl font-serif font-bold text-orange-500">
+            <h2 className="text-2xl md:text-2xl font-serif font-bold text-orange-500">
               I'm Ripon Sharma
             </h2>
             <p className="text-lg font-serif mt-2 text-gray-600 pb-4 border-b-2">
-              {/* SEO Expert & Digital Marketer in Bangladesh */}
               I'm a professional Digital Marketer ( SEO & Social Media Marketing
               Expert ).
             </p>
           </div>
           <div className="mt-5">
-            <p className="font-serif">
+            <p className="text-lg">
               I’m Ripon Sharma. I’m a professional Digital Marketer ( SEO &
               Social Media Marketing Expert ) Just to give you a quick brief
               about me, I started my career in the world of internet marketing
