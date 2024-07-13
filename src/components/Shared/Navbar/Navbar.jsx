@@ -1,9 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
-// import logo from "../../../assets/3d_logo- Png";
-// import logo from '../../../../src/assets/3d_logo- Png'
-import logo from '../../../assets/file.png'
+import mainlogo from "../../../assets/ripon-logo.png";
+import agency from "../../../assets/agency.png";
 
 import "./Navbar.css";
 
@@ -49,7 +48,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="navbar fixed z-10 bg-gray-500 bg-opacity-40 text-white px-4 xl:px-20">
+      <div className="navbar fixed z-10 bg-gray-500 bg-opacity-40 text-white xl:px-20">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -76,8 +75,8 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="flex items-center">
-            <img className="w-20" src={logo} alt="" />
-            <h2 className="text-2xl -ml-3 mt-2 cursor-pointer w-56 uppercase">
+            <img className="w-20" src={mainlogo} alt="" />
+            <h2 className="text-2xl cursor-pointer w-56 uppercase">
               <Link to="/">
                 <h2 className="font-bold font-serif">
                   Rank <span className="text-orange-500">Agency</span>

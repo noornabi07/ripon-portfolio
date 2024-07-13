@@ -28,9 +28,9 @@ const ContactInfo = () => {
           />
 
           <div className="flex flex-col gap-4">
-            <h3 className="text-3xl font-bold text-white">Ripon Chandra Dev</h3>
-            <p className="text-lg font-normal text-orange-400">
-              Specialist SEO Experts
+            <h3 className="text-3xl font-bold text-white">Ripon Sharma</h3>
+            <p className="text-xl font-serif text-orange-400">
+              SEO Specialist
             </p>
             <p className="text-base text-gray-400 tracking-wide text-start">
               I’m Ripon Sharma. I’m a professional Digital Marketer ( SEO &

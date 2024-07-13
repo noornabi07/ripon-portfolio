@@ -44,7 +44,7 @@ const TeamShow = () => {
           <SwiperSlide key={team.id}>
             <div className="flex flex-col justify-center items-center">
               <div className="avatar">
-                <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                <div className="w-32 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                   <img src={team?.img} />
                 </div>
               </div>

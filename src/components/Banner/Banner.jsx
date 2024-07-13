@@ -45,16 +45,19 @@ const Banner = () => {
               to="https://www.facebook.com/profile.php?id=61561724795557"
               target="_blank"
             >
-              <FaFacebook className="cursor-pointer hover:scale-150 hover:duration-150 hover:text-orange-600" />
+              <FaFacebook className="cursor-pointer hover:scale-150  hover:duration-150 hover:text-teal-500" />
             </Link>
             <Link
               to="https://www.linkedin.com/in/ripon-sharma-145b95233/"
               target="_blank"
             >
-              <FaLinkedinIn className="cursor-pointer hover:scale-150 hover:duration-150 hover:text-orange-600" />
+              <FaLinkedinIn className="cursor-pointer  hover:scale-150 hover:duration-150 hover:text-teal-500" />
             </Link>
-            <Link to="https://www.instagram.com/riponsharma71/" target="_blank">
-              <FaInstagram className="cursor-pointer hover:scale-150 hover:duration-150 hover:text-orange-600" />
+            <Link to="https://www.instagram.com/rankagency78/" target="_blank">
+              <FaInstagram className="cursor-pointer  hover:scale-150 hover:duration-150 hover:text-teal-500" />
+            </Link>
+            <Link to="https://x.com/rankagency289" target="_blank">
+              <FaTwitter className="cursor-pointer  hover:scale-150 hover:duration-150 hover:text-teal-500" />
             </Link>
           </div>
         </div>
